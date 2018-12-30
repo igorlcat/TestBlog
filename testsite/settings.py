@@ -25,7 +25,11 @@ SECRET_KEY = 'b*tt1$#wlheej3jd!_+hmxl42kiecn46%d1-79b(8^c74ir$sv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1', 'igorcat.pythonanywhere.com']
+=======
+ALLOWED_HOSTS = ['127.0.0.1', 'cat_frome_Mordor.pythonanywhere.com', 'igorcat.pythonanywhere.com']
+>>>>>>> 99055654632456fb976c10456d904b8ff6bc7f9c
 
 
 # Application definition
