@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc54ad8a-a6fe-46a4-ac85-24a3f6844bcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blogtest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogtest/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogtest/static/css/blogtest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogtest/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogtest/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogtest/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogtest/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogtest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogtest/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogtest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogtest/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testsite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,11 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="120">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogtest/static/css/blogtest.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/blogtest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="71" lean-forward="true" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -65,11 +78,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogtest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+            <state relative-caret-position="135">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/post_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -84,11 +106,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogtest/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -125,12 +142,15 @@
       <list>
         <option value="$PROJECT_DIR$/blogtest/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/blogtest/urls.py" />
         <option value="$PROJECT_DIR$/testsite/urls.py" />
         <option value="$PROJECT_DIR$/testsite/settings.py" />
         <option value="$PROJECT_DIR$/blogtest/models.py" />
-        <option value="$PROJECT_DIR$/blogtest/views.py" />
+        <option value="$PROJECT_DIR$/blogtest/static/css/blogtest.css" />
+        <option value="$PROJECT_DIR$/blogtest/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/blogtest/templates/blog/post_list.html" />
+        <option value="$PROJECT_DIR$/blogtest/urls.py" />
+        <option value="$PROJECT_DIR$/blogtest/views.py" />
+        <option value="$PROJECT_DIR$/blogtest/templates/blog/post_detail.html" />
       </list>
     </option>
   </component>
@@ -278,16 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogtest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogtest/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -301,20 +311,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogtest/static/css/blogtest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/post_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogtest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="71" lean-forward="true" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogtest/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        <state relative-caret-position="135">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/post_list.html">
+    <entry file="file://$PROJECT_DIR$/blogtest/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
